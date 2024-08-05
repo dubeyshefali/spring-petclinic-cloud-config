@@ -16,6 +16,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
-
-username: ${/p-bosh/cf-63fa4a3a591f8d52eac6/locket-db-credentials.username}
-password: ${/p-bosh/cf-63fa4a3a591f8d52eac6/locket-db-credentials.password}
